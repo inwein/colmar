@@ -41,3 +41,115 @@ header a {
     color: black;
     margin-right: 16px;
 }
+
+/* First-block section */
+.first-block {
+    background-color: #d8d8d8;
+    width: 100%;
+    display: flex;
+}
+
+.first-block img { 
+    width: 60%;
+    margin: 32px 24px;
+} 
+
+.inside-first {
+    color:#4a4a4a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.inside-first h1 {
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1;
+    margin:15px 0;
+}
+
+.inside-first p { 
+    font-size: 1.5em;
+    line-height: 1;
+    margin:15px 0;
+}
+
+.inside-first button {
+    margin:15px 0;
+    background-color: #4a4a4a;
+    padding: 16px 0;
+    color:white;
+    border: none;
+    font-family: "Cabin", sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+}
+
+/* Second block section */
+
+.second-block {
+    background-color: white;
+    display: flex;
+} 
+
+.second-block img {
+    width: 100%;
+}
+
+.photo-box {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 24px;
+    width: 60%;
+    color:#4a4a4a;
+    font-size: 1.3em;
+}
+
+.photo-box span {
+    font-size: 0.8em;
+}
+
+.on-the-right {
+    width: 40%;
+    margin: 32px 0;
+    border-left: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.micro-news {
+    display: flex;
+    justify-content: center;
+    
+    padding-left: 0;
+    
+}
+.micro-news h4 { 
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.micro-news p {
+    font-size: 1.1em;
+}
+
+.micro-news img {
+    margin:16px;
+    width: 35%;
+    height: auto;
+}
+
+.micro-news a {
+    text-decoration: none;
+    color:blue;
+}
+
+.inside-micro {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 65%;
+    
+}
